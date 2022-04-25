@@ -26,7 +26,6 @@
 		- {user: {userid: "test11", password: "a111"}}
 		- 존재하는 id일 경우
 			- status 409
-			- status 201
 		- 존재하지 않는 id일 경우
 			- 유효성 검증 성공 시
 				- id와 암호화 된 비밀번호를 DB에 저장
